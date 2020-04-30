@@ -1,0 +1,33 @@
+.nav-menu {
+  background-color: rgb(14, 58, 102); 
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border: 3px solid rgb(17, 141, 199);
+  border-radius: 50px;
+}
+.nav-link {
+  background-color: rgb(126, 64, 226);
+  color: #fff;
+  padding: 10px 40px;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.nav-link:hover {
+  background-color: rgb(157, 98, 253);
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu .logo {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-menu .logo img {
+  height: 32px;
+}
